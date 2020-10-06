@@ -1,0 +1,39 @@
+.slider {
+    height: 450px;
+    width: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8d8d8;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+.slider * {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.left__arrow {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+}
+
+.right__arrow {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+}
+
+.slider__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__dots * {
+    margin: 5px;
+}
